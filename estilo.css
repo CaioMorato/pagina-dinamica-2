@@ -26,27 +26,18 @@ footer {
 
 }
 
-img#foto {
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-}
-div#res {
+div#dados {
     text-align: center;
-}
-
-div {
-    text-align: center;
-}
-
-input[type="button"]{
-    background: rgba(0, 51, 80, 0.719);
-    border: none;
-    color: white;
-    display: inline-block;
     
 }
-input[type="button"]:hover{
-    background: rgba(2, 77, 121, 0.671);
 
+div#res {
+    text-align: center;
+    line-height: 50px;
+}
+
+
+
+input#anoNasc {
+    width: 15%;
 }

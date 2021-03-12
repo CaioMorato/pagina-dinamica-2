@@ -9,47 +9,38 @@
 
 </head>
 
-<body onload="carregar()">
-    
+<body>
     <header>
         <h1>
-            Verificador de Idade
+            Vamos verificar sua idade!
         </h1>
     </header>
 
     <section>
-        <div>
+        <div id="dados">
+                Ano de Nascimento: <input type="number" name="anoNasc" id="anoNasc">
             <p>
-                Ano de Nascimento:
-            <input type="number" name="txtano" id="txtano">
-                <p>
-                Sexo:
-                Masculino <input type="radio" name="radsex" id="mas">
-                Feminino <input type="radio" name="radsex" id="fem">
-                </p>
+                Sexo: 
+                <input type="radio" name="radsex" id="masc">
+                <label for="masc">Masculino</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
             </p>
-            <p>
-                <input type="button" value="Verificar" onclick="verificar()">
-            </p>
+                <input type="button" value="Verificar!" onclick="calculadora()">
         </div>
-
         <div id="res">
-            Preencha os dados acima para ver o resultado.
+            <p>
+                Aguardando dados...
+            </p>
         </div>
-    
-
     </section>
 
     <footer>
-
         <p>
             &copy; CursoEmVideo
         </p>
-
     </footer>
-
     <script src="script.js"></script>
-
 </body>
 
 </html>
